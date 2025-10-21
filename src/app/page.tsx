@@ -105,6 +105,8 @@ export default function Home() {
       ) : stage === "question" ? (
         <div>
           <p className="text-2xl mb-6">Хочеш дізнатися більше?</p>
+          <p>all of the stars have a reason</p>
+          <p>a reasonto shine, a reason like yours</p>
           <div className="flex gap-4 justify-center">
             <button onClick={() => setStage("quiz")} className="bg-green-500 text-white px-6 py-2 rounded-2xl hover:bg-green-600 transition">Так</button>
             <button onClick={() => setStage("no")} className="bg-gray-400 text-white px-6 py-2 rounded-2xl hover:bg-gray-500 transition">Ні</button>
@@ -177,7 +179,7 @@ export default function Home() {
             <div className="mt-4 p-4 bg-yellow-100 rounded-xl max-w-md">
               <p className="text-gray-700">окак</p>
               <p className="text-gray-700">ок, як домовлялись</p>
-              <p className="text-gray-700">окак</p>
+              <p className="text-gray-700">ти вже її бачила</p>
             </div>
           )}
         </div>
